@@ -39,6 +39,7 @@ class _HomeState extends State<Home> {
   Color reds=Color.fromARGB(255, 191, 19, 62);
 
   Color bn=Color.fromARGB(255, 137, 0, 179);
+  Color ss=Color.fromARGB(255, 224, 182, 43);
 
   CountDownController _controller = CountDownController();
   @override
@@ -452,6 +453,140 @@ Size size=MediaQuery.of(context).size;
 
 
 
+
+
+          Padding(padding: EdgeInsets.all(15),
+            child: Container(
+              decoration: BoxDecoration(
+                  color: c2
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  ListTile(
+                    leading: Icon(Icons.sports_handball,color: pro2,size: 30,),
+                    title: Text('Sport',style: TextStyle(fontSize: 30,color: fon),),
+                    trailing: Text('_',style: TextStyle(fontSize: 20,color: fon),),
+                  ),
+                  Center(child: Container(
+                    padding: EdgeInsets.all(15),
+                    decoration: BoxDecoration(
+                        color: pro2,
+                        borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20),bottomRight: Radius.circular(20))
+                    ),
+                    child: Text('--km',style: TextStyle(fontSize: 20),),
+
+
+
+                  ),),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround,children: [
+
+                      Container(
+                        width: size.width/5,
+                        height: 15,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.only(topLeft: Radius.circular(20),bottomLeft: Radius.circular(20)),
+                            color: pro2
+                        ),
+
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 10),
+                        width: size.width/5,
+                        height: 15,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.only(topLeft: Radius.circular(0),bottomLeft: Radius.circular(0)),
+                            color: pro2
+                        ),
+
+                      ),
+
+                      Container(
+                        margin: EdgeInsets.only(left: 10),
+                        width: size.width/5,
+                        height: 15,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.only(topLeft: Radius.circular(0),bottomLeft: Radius.circular(0)),
+                            color: pro2
+                        ),
+
+                      ),
+
+
+                      Container(
+                        margin: EdgeInsets.only(left: 10),
+                        width: size.width/5,
+                        height: 15,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20)),
+                            color: pro2
+                        ),
+
+                      ),
+
+                    ],),
+                  ),
+                  Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text('day.',style: TextStyle(fontSize: 22,color: fon,),),
+                          Text('Come on! Another goal w',style: TextStyle(fontSize: 22,color: fon,),)
+
+                        ],
+                      )
+                  ) ,
+
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(child: Row(
+
+                      children: [
+                        Text('Go And See',style: TextStyle(fontSize: 22,color: fon,),),
+                        Icon(Icons.arrow_forward,color: fon,size: 22,)
+                      ],
+                    )),
+                  ) ,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                ],
+              ),
+            ),
+
+          ),
 
 
           Padding(padding: EdgeInsets.all(15),
