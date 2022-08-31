@@ -598,14 +598,14 @@ Size size=MediaQuery.of(context).size;
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   ListTile(
-                    leading: Icon(Icons.sports_handball,color: pro2,size: 30,),
+                    leading: Icon(Icons.sports_handball,color: ss,size: 30,),
                     title: Text('Sport',style: TextStyle(fontSize: 30,color: fon),),
                     trailing: Text('_',style: TextStyle(fontSize: 20,color: fon),),
                   ),
                   Center(child: Container(
                     padding: EdgeInsets.all(15),
                     decoration: BoxDecoration(
-                        color: pro2,
+                        color: ss,
                         borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20),bottomRight: Radius.circular(20))
                     ),
                     child: Text('--km',style: TextStyle(fontSize: 20),),
@@ -622,7 +622,7 @@ Size size=MediaQuery.of(context).size;
                         height: 15,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.only(topLeft: Radius.circular(20),bottomLeft: Radius.circular(20)),
-                            color: pro2
+                            color: ss
                         ),
 
                       ),
@@ -632,7 +632,7 @@ Size size=MediaQuery.of(context).size;
                         height: 15,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.only(topLeft: Radius.circular(0),bottomLeft: Radius.circular(0)),
-                            color: pro2
+                            color: ss
                         ),
 
                       ),
@@ -643,7 +643,7 @@ Size size=MediaQuery.of(context).size;
                         height: 15,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.only(topLeft: Radius.circular(0),bottomLeft: Radius.circular(0)),
-                            color: pro2
+                            color: ss
                         ),
 
                       ),
@@ -655,7 +655,7 @@ Size size=MediaQuery.of(context).size;
                         height: 15,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20)),
-                            color: pro2
+                            color: ss
                         ),
 
                       ),
