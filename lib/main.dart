@@ -58,7 +58,7 @@ Size size=MediaQuery.of(context).size;
               ],
 
             ),
-            trailing: Icon(Iconsax.watch_status,color: pro1, size: 30,),
+            trailing: IconButton(onPressed: (){},icon: Icon(Iconsax.watch_status,color: pro1, size: 30,),)
           ),
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -587,68 +587,10 @@ Size size=MediaQuery.of(context).size;
         ],
 
       ),
-      // bottomNavigationBar: BottomNavigationBar(
-      //   items: [
-      //     BottomNavigationBarItem(icon: Icon(Iconsax.heart5),label: 'Healthy'),
-      //     BottomNavigationBarItem(icon: Icon(Iconsax.data5),label: 'Data'),
-      //     BottomNavigationBarItem(icon: Icon(Iconsax.speedometer4),label: 'Sport'),
-      //     BottomNavigationBarItem(icon: Icon(Iconsax.personalcard5),label: 'My'),
-      //
-      //   ],
-      //   backgroundColor: Colors.black54,
-      //   selectedItemColor: pro2,
-      //   unselectedItemColor: fon,
-      //
-      //
-      // ),
+
     );
   }
 
 }
 
 
-/*
-
-Widget a()
-  {
-    return ListView(
-      children: [
-        CircularCountDownTimer(
-          duration: 50,
-          initialDuration: 0,
-          controller: _controller,
-          width: MediaQuery.of(context).size.width / 2,
-          height: MediaQuery.of(context).size.height / 2,
-          ringColor: Colors.grey[300]!,
-          ringGradient: null,
-          fillColor: Colors.purpleAccent[100]!,
-          fillGradient: null,
-          backgroundColor: Colors.purple[500],
-          backgroundGradient: null,
-          strokeWidth: 20.0,
-          strokeCap: StrokeCap.round,
-          textStyle: TextStyle(
-              fontSize: 33.0, color: Colors.white, fontWeight: FontWeight.bold),
-          textFormat: CountdownTextFormat.S,
-          isReverse: false,
-          isReverseAnimation: false,
-          isTimerTextShown: true,
-          autoStart: false,
-
-          onStart: () {
-            debugPrint('Countdown Started');
-          },
-          onComplete: () {
-
-          },
-          onChange: (String timeStamp) {
-            debugPrint('Countdown Changed $timeStamp');
-          },
-        ),
-        IconButton(onPressed: (){
-          _controller.start();
-        }, icon: Icon(Icons.start))
-      ],
-    );
-  }
- */
