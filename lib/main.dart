@@ -280,7 +280,7 @@ Size size=MediaQuery.of(context).size;
                   child: Container(child: Row(
 
                     children: [
-                      Text('Go And See',style: TextStyle(fontSize: 22,color: fon,),),
+                      TextButton(onPressed: (){}, child: Text('Go And See',style: TextStyle(fontSize: 22,color: fon,),),),
                       Icon(Icons.arrow_forward,color: fon,size: 22,)
                     ],
                   )),
