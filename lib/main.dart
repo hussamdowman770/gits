@@ -62,7 +62,7 @@ class _HomeState extends State<Home> {
                     color: Colors.amberAccent,
                   ),
                   Text(
-                    'helwamss 30  32',
+                    'helwamssg 30  32',
                     style: TextStyle(fontSize: 20, color: fon),
                   )
                 ],
