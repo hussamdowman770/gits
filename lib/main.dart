@@ -95,7 +95,7 @@ class _HomeState extends State<Home> {
                             size: 30,
                           ),
                           Text(
-                            'Steps',
+                            'Stepss',
                             style: TextStyle(fontSize: 30, color: fon),
                           )
                         ],
